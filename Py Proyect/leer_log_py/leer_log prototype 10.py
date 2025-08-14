@@ -2,9 +2,11 @@ import pandas as pd
 from pathlib import Path
 import re
 from openpyxl import Workbook
-from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles import Alignment
-from openpyxl.utils import get_column_letter
+
+# 🔹 Función para limpiar la descripción quitando "Test X"
+def limpiar_descripcion(texto):
+    return re.sub(r"Test\s*\d+\s*-", "", texto).strip() if texto else texto
 
 # Clase para representar un solo test
 class LogTest:
@@ -53,10 +55,12 @@ class LogParser:
                 if any(c and c.group(1).strip() == "N/A" for c in campos):
                     continue
 
+                descripcion_limpia = limpiar_descripcion(test_desc.group(1).strip() if test_desc else None)
+
                 test = LogTest(
                     archivo=self.path_archivo.name,
                     test_num=test_num.group(1) if test_num else None,
-                    descripcion=test_desc.group(1).strip() if test_desc else None,
+                    descripcion=descripcion_limpia,
                     serie_pcb=pcb_sn.group(1).strip() if pcb_sn else None,
                     limite_inf=lower.group(1).strip() if lower else None,
                     limite_sup=upper.group(1).strip() if upper else None,
@@ -87,69 +91,56 @@ class LogProcessor:
             self.tests.extend(parser.parse())
 
     def exportar_excel_multinivel(self, nombre_archivo="tests_excel_multinivel.xlsx"):
-        # Agrupar por test
         agrupados = {}
         for test in self.tests:
-            clave = (test.test_num, test.descripcion, test.limite_inf, test.limite_sup)
+            clave = (test.descripcion, test.limite_inf, test.limite_sup)
             agrupados.setdefault(clave, {}).setdefault(test.serie_pcb, []).append(test.medida)
 
-        # Crear workbook
         wb = Workbook()
         ws = wb.active
         ws.title = "Resultados"
 
-        # Encabezados fijos
-        encabezado_fijo = ["Test Number", "Test", "LowLimit", "HighLimit"]
+        encabezado_fijo = ["Test", "LowLimit", "HighLimit"]
+        todos_pcbs = sorted({pcb for tests_por_pcb in agrupados.values() for pcb in tests_por_pcb.keys()})
 
-        # Obtener todos los PCBs únicos
-        todos_pcbs = set()
-        for tests_por_pcb in agrupados.values():
-            todos_pcbs.update(tests_por_pcb.keys())
-        todos_pcbs = sorted(todos_pcbs)
-
-        # Construir encabezados multinivel
-        header_row_1 = encabezado_fijo[:]
-        header_row_2 = [""] * len(encabezado_fijo)
-        header_row_3 = [""] * len(encabezado_fijo)
+        header_row_1 = encabezado_fijo[:] + [""]
+        header_row_2 = [""] * len(encabezado_fijo) + [""]
+        header_row_3 = [""] * len(encabezado_fijo) + [""]
 
         for pcb in todos_pcbs:
-            header_row_1.extend(["Serial Number"] * 3)
-            header_row_2.extend([pcb] * 3)
-            header_row_3.extend(["Trial1", "Trial2", "Trial3"])
+            header_row_1.extend(["Serial Number"] * 3 + [""])
+            header_row_2.extend([pcb] * 3 + [""])
+            header_row_3.extend(["Trial1", "Trial2", "Trial3"] + [""])
 
         ws.append(header_row_1)
         ws.append(header_row_2)
         ws.append(header_row_3)
 
-        # Combinar celdas para encabezados
-        col = len(encabezado_fijo) + 1
+        col = len(encabezado_fijo) + 2
         for pcb in todos_pcbs:
             ws.merge_cells(start_row=1, start_column=col, end_row=1, end_column=col+2)
             ws.merge_cells(start_row=2, start_column=col, end_row=2, end_column=col+2)
             for i in range(3):
-                cell = ws.cell(row=3, column=col+i)
-                cell.alignment = Alignment(horizontal="center")
-            col += 3
+                ws.cell(row=3, column=col+i).alignment = Alignment(horizontal="center")
+            col += 4  # 3 trial columns + 1 empty column
 
-        # Agregar datos
         for clave, pcb_tests in agrupados.items():
-            test_num, descripcion, limite_inf, limite_sup = clave
-            fila = [f"Test {test_num}", descripcion.replace(f"Test {test_num} - ", ""), limite_inf, limite_sup]
+            descripcion, limite_inf, limite_sup = clave
+            fila = [descripcion, limite_inf, limite_sup, ""]
             for pcb in todos_pcbs:
                 mediciones = pcb_tests.get(pcb, [])
-                fila.extend(mediciones[:3] + [""] * (3 - len(mediciones)))
+                fila.extend(mediciones[:3] + [""] * (3 - len(mediciones)) + [""])
             ws.append(fila)
 
         wb.save(nombre_archivo)
-        print(f"✅ Archivo Excel exportado como '{nombre_archivo}' con encabezados multinivel.")
+        print(f"✅ Archivo Excel exportado como '{nombre_archivo}' con separaciones entre bloques de serial numbers.")
 
 # Función principal
 def main():
-    ruta = r"C:\Users\3002975\Documents\Py Proyect\leer_log_py"
+    ruta = r"C:\Users\3002975\Documents\GitHub\leer_log_prototipo-10\Py Proyect\leer_log_py"
     procesador = LogProcessor(ruta)
     procesador.procesar_logs()
     procesador.exportar_excel_multinivel()
 
 if __name__ == "__main__":
     main()
-
