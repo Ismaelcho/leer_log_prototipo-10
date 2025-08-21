@@ -1,0 +1,725 @@
+Vision Detector PCB Panel Assembly Functional Test
+Test Date: 2021-02-23 13:26:37
+Supplier: Jabil
+Technician: User1
+Customer: Siemens
+Test Station: OSP_PCB_FT_01
+Test Software Revision: 04
+Test Parameters Match Initialization File: FALSE
+Year of Manufacture: 2020
+Siemens PCBA Part Number: 10752680
+Siemens PCBA Revision: 03
+Panel Serial Number: RBL03W15449 - Fail
+PCB D Serial Number: RBL03W15449D - Fail
+PCB C Serial Number: RBL03W15449C - Pass **Not all Test Performed.  No Data Written to EEPROM!**
+PCB B Serial Number: RBL03W15449B - Pass **Not all Test Performed.  No Data Written to EEPROM!**
+PCB A Serial Number: RBL03W15449A - Fail
+
+
+Test Description:
+Test 1 - RF Amp & ASIC Trigger Test, ASIC 0
+PCB Serial Number:
+RBL03W15449D
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.562, IC2: 25.500; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.250, IC2: 26.937; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 2 - RF Amp & ASIC Trigger Test, ASIC 1
+PCB Serial Number:
+RBL03W15449D
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.562, IC2: 25.500; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.250, IC2: 26.937; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 3 - RF Amp & ASIC Trigger Test, ASIC 2
+PCB Serial Number:
+RBL03W15449D
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.562, IC2: 25.500; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.250, IC2: 26.937; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 4 - RF Amp & ASIC Trigger Test, ASIC 3
+PCB Serial Number:
+RBL03W15449D
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.562, IC2: 25.500; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.250, IC2: 26.937; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 5 - RF Amp & ASIC Trigger Test, ASIC 4
+PCB Serial Number:
+RBL03W15449D
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.562, IC2: 25.500; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.250, IC2: 26.937; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 6 - RF Amp & ASIC Trigger Test, ASIC 5
+PCB Serial Number:
+RBL03W15449D
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Fail 
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.562, IC2: 25.500; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.250, IC2: 26.937; Temp OK - Pass
+Test Result:
+Fail
+Notes:
+0 Pulse(s),   Pulse Width (ns): 0
+
+
+Test Description:
+Test 7 - RF Amp & ASIC Trigger Test, ASIC 6
+PCB Serial Number:
+RBL03W15449D
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.562, IC2: 25.500; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.250, IC2: 26.937; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 8 - RF Amp & ASIC Trigger Test, ASIC 7
+PCB Serial Number:
+RBL03W15449D
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.562, IC2: 25.500; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.250, IC2: 26.937; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 9 - RF Amp & ASIC Trigger Test, ASIC 0
+PCB Serial Number:
+RBL03W15449C
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.812, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.625, IC2: 27.187; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 10 - RF Amp & ASIC Trigger Test, ASIC 1
+PCB Serial Number:
+RBL03W15449C
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.812, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.625, IC2: 27.187; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 11 - RF Amp & ASIC Trigger Test, ASIC 2
+PCB Serial Number:
+RBL03W15449C
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.812, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.625, IC2: 27.187; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 12 - RF Amp & ASIC Trigger Test, ASIC 3
+PCB Serial Number:
+RBL03W15449C
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.812, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.625, IC2: 27.187; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 13 - RF Amp & ASIC Trigger Test, ASIC 4
+PCB Serial Number:
+RBL03W15449C
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.812, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.625, IC2: 27.187; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 14 - RF Amp & ASIC Trigger Test, ASIC 5
+PCB Serial Number:
+RBL03W15449C
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.812, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.625, IC2: 27.187; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 15 - RF Amp & ASIC Trigger Test, ASIC 6
+PCB Serial Number:
+RBL03W15449C
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.812, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.625, IC2: 27.187; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 16 - RF Amp & ASIC Trigger Test, ASIC 7
+PCB Serial Number:
+RBL03W15449C
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.812, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.625, IC2: 27.187; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 17 - RF Amp & ASIC Trigger Test, ASIC 0
+PCB Serial Number:
+RBL03W15449B
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 26.000, IC2: 25.875; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.687, IC2: 27.312; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 18 - RF Amp & ASIC Trigger Test, ASIC 1
+PCB Serial Number:
+RBL03W15449B
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 26.000, IC2: 25.875; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.687, IC2: 27.312; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 19 - RF Amp & ASIC Trigger Test, ASIC 2
+PCB Serial Number:
+RBL03W15449B
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 26.000, IC2: 25.875; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.687, IC2: 27.312; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 20 - RF Amp & ASIC Trigger Test, ASIC 3
+PCB Serial Number:
+RBL03W15449B
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 26.000, IC2: 25.875; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.687, IC2: 27.312; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 21 - RF Amp & ASIC Trigger Test, ASIC 4
+PCB Serial Number:
+RBL03W15449B
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 26.000, IC2: 25.875; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.687, IC2: 27.312; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 22 - RF Amp & ASIC Trigger Test, ASIC 5
+PCB Serial Number:
+RBL03W15449B
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 26.000, IC2: 25.875; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.687, IC2: 27.312; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 23 - RF Amp & ASIC Trigger Test, ASIC 6
+PCB Serial Number:
+RBL03W15449B
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 26.000, IC2: 25.875; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.687, IC2: 27.312; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 24 - RF Amp & ASIC Trigger Test, ASIC 7
+PCB Serial Number:
+RBL03W15449B
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 26.000, IC2: 25.875; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.687, IC2: 27.312; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 25 - RF Amp & ASIC Trigger Test, ASIC 0
+PCB Serial Number:
+RBL03W15449A
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.750, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.312, IC2: 27.000; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 26 - RF Amp & ASIC Trigger Test, ASIC 1
+PCB Serial Number:
+RBL03W15449A
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.750, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.312, IC2: 27.000; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 27 - RF Amp & ASIC Trigger Test, ASIC 2
+PCB Serial Number:
+RBL03W15449A
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.750, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.312, IC2: 27.000; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 28 - RF Amp & ASIC Trigger Test, ASIC 3
+PCB Serial Number:
+RBL03W15449A
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Fail 
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.750, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.312, IC2: 27.000; Temp OK - Pass
+Test Result:
+Fail
+Notes:
+0 Pulse(s),   Pulse Width (ns): 0
+
+
+Test Description:
+Test 29 - RF Amp & ASIC Trigger Test, ASIC 4
+PCB Serial Number:
+RBL03W15449A
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.750, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.312, IC2: 27.000; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 30 - RF Amp & ASIC Trigger Test, ASIC 5
+PCB Serial Number:
+RBL03W15449A
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.750, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.312, IC2: 27.000; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 31 - RF Amp & ASIC Trigger Test, ASIC 6
+PCB Serial Number:
+RBL03W15449A
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  10.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.750, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.312, IC2: 27.000; Temp OK - Pass
+Test Result:
+Pass
+
+Test Description:
+Test 32 - RF Amp & ASIC Trigger Test, ASIC 7
+PCB Serial Number:
+RBL03W15449A
+Test Lower Limit:
+N/A
+Test Upper Limit:
+100.000000 (mV)
+Test Measurement:
+Pass - Successfully triggered from 100.000000 to  0.000000 (mV) in  10.000000 (mV) Increments
+Units:
+mVDC
+Starting Temperature (Max  50.00 C):
+IC1: 25.750, IC2: 25.562; Temp OK - Pass
+Ending Temperature (Max  50.00 C):
+IC1: 27.312, IC2: 27.000; Temp OK - Pass
+Test Result:
+Pass
+
+Test Parameters:
+Test Station="OSP_PCB_FT_01"
+
+[PCB Current]
+Set DC Voltage (V)="5.000"
+Set DC Current Limit (A)="4.000"
+Upper Voltage Limit="5.100"
+Lower Voltage Limit="4.900"
+Power Off Upper Current Limit="2.300"
+Power Off Lower Current Limit="2.100"
+Power On Upper Current Limit="2.650"
+Power On Lower Current Limit="2.450"
+ASIC Loaded Upper Current Limit="3.000"
+ASIC Loaded Lower Current Limit="2.700"
+
+[DAC Calibration]
+DAC Calibration Tolerance="0.015"
+Low Voltage Value="1.000"
+Mid Voltage Value="2.000"
+High Voltage Value="2.600"
+
+Overtemp Threshold="50.000"
+
+Detector Power On Delay="0.100"
+
+[TLE In/Out]
+ASIC Off High Limit="0.100"
+ASIC Off Low Limit="-0.100"
+ASIC On High Limit="0.700"
+ASIC On Low Limit="0.480"
+ASIC Bias High Limit="2.800"
+ASIC Bias Low Limit="2.500"
+
+[RF Amp & ASIC Test & LED Reset]
+Starting Pulse Amplitude (mV)="100.000"
+Decreasing Trigger Delta (mV)="10.000"
+Pulse Width (ns)="10.000"
+Trigger Width Lower Limit (ns)="40.000"
+Trigger Width Upper Limit (ns)="60.000"
+Number of Acceptable Pulses="1.000"
+
+[File Locations]
+Test Report Folder Location="C:\Test Reports"
+.tar File Folder Location="C:\Tars"
+
+[Tests to Perform]
+PCB Current Test="FALSE"
+EEPROM Test="FALSE"
+TLE In Test="FALSE"
+TLE Out Test="TRUE"
+RF Amps & ASICs Test="TRUE"
+Reset Test="FALSE"
+Calibrate DACs Test="FALSE"
+
+[PCBs to Test]
+Test PCB1="TRUE"
+Test PCB2="TRUE"
+Test PCB3="TRUE"
+Test PCB4="TRUE"
+
+[Part Number]
+O="10748016"
+R="10752680"
+
+[Manufacturer]
+A="IES"
+B="Jabil"
+C="Epic"
+D="CV"
+Z="Prototype"
+
+[Year]
+A="2009"
+B="2010"
+C="2011"
+D="2012"
+E="2013"
+F="2014"
+G="2015"
+H="2016"
+I="2017"
+J="2018"
+K="2019"
+L="2020"
+M="2021"
+N="2022"
+O="2023"
+P="2024"
+Q="2025"
+
+[Dogbone]
+10748016="standard"
+10752680="dogbone"

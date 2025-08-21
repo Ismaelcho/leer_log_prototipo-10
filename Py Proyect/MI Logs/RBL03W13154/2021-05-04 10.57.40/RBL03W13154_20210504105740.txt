@@ -1,0 +1,18 @@
+Vision Detector PCB Panel Assembly Functional Test
+Test Date: 2021-05-04 10:57:40
+Supplier: Jabil
+Technician: User1
+Customer: Siemens
+Test Station: OSP_PCB_FT_01
+Test Software Revision: 04
+Test Parameters Match Initialization File: TRUE
+Year of Manufacture: 2020
+Siemens PCBA Part Number: 10752680
+Siemens PCBA Revision: 03
+Panel Serial Number: RBL03W13154
+PCB D Serial Number: RBL03W13154D
+PCB C Serial Number: RBL03W13154C
+PCB B Serial Number: RBL03W13154B
+PCB A Serial Number: RBL03W13154A
+
+
